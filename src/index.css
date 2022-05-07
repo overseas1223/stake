@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddeffd;
+}
+
+.main_page { 
+  height: 100vh;
+  background-color: #ddeffd;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.main_page_heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff !important;
+  background-color: #fb9644 !important;
+  padding: 6px 30px 3px !important;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px !important;
+  margin-top: 15px !important;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.step_one textarea {
+  height: 150px;
+}
+
+.step_one label {
+  width: 100%;
+}
+
+.step_one label span {
+  float: right;
+  border-bottom: 1px solid;
+}
+
+.step_two {
+  padding-bottom: 25px;
+}
+
+.step_two .recipent_list {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.step_two .recipent_list .table {
+  margin-bottom: 0rem;
+}
+
+.step_two .address_total .col-md-6 {
+  background-color: #fff;
+}
+
+.step_two .address_total label {
+  margin-top: 15px;
+}
+
+.step_two .address_total .col-md-6 {
+  background-color: #fff;
+  padding: 10px 15px;
+}
+
+.step_two .address_total .col-md-6 h3 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.step_two .address_total .col-md-6 h6 {
+  color: #aaa;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.staking_form {
+  background: rgb(255 255 255 / 63%);
+  padding: 30px 30px 10px;
+  border-radius: 10px;
+}
+
+.submit_btn {
+  color: #fff !important;
+  background-color: #fb9644 !important;
+  padding: 2px 25px !important;
+  margin-bottom: 25px !important;
+}
+
+.staking_form input {
+  font-size: 14px;
+}
+
+.staking_form label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.staking_form p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.token_status {
+  background: rgb(255 255 255 / 63%);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.token_status h5 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.token_status p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.token_status button {
+  padding: 2px 5px;
+  font-size: 11px;
+  border: 0;
+  background: #fb9644;
+  color: #fff;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+}
